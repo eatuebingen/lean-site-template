@@ -98,7 +98,7 @@ DefaultContentLanguage = "de"
   contact= "Kontakte"
 
   [Languages.de.pages]
-  contactPageHeader = "Wenden Sie sich an uns"
+  contactPageHeader = "Kontakt"
   aboutEAPageHeader = "Was ist Effektiven Altruismus?"
 
   [Languages.de.homepage]
@@ -112,7 +112,7 @@ DefaultContentLanguage = "de"
   [Languages.de.contactform]
   leadText = "Willst Du mehr über EA wissen? Dann schreibe uns doch einfach"
   senderName = "Dein Name (notwendig)"
-  senderEmail = "Dein Email (notwendig)"
+  senderEmail = "Deine E-Mail (notwendig)"
   emailSubject = "Betreff"
   emailMessage = "Deine Nachricht:"
   send = "Senden"
