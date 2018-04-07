@@ -9,7 +9,7 @@ canonifyURLs = true
 # you can change this language code. In this particular case,
 # baseURL will be the English site, and baseURL/<language code> will be the
 # other languages.
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 
 # These params are used by the local EA Hugo template
 # used to generate the site. You can find the template
@@ -18,9 +18,9 @@ DefaultContentLanguage = "en"
 
   [Languages]
   [Languages.en]
-  title = "Local EA Website"
+  title = "EA Tübingen"
   weight = 1
-  languageCode = "en"
+  languageCode = "de"
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
@@ -29,7 +29,7 @@ DefaultContentLanguage = "en"
 
   [Languages.en.groupinfo]
   ## -- EA GROUP INFO -- ##
-  legalOrgName = "Effective Altruism <City Here>"
+  legalOrgName = "Effective Altruism Tübingen"
   orgLocations = "this location and that location"
   contactEmail = "yourEAGroupEmail@here.com"
 
