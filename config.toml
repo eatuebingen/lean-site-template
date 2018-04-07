@@ -51,7 +51,7 @@ DefaultContentLanguage = "de"
 
   [Languages.en.contactform]
     ## -- CONTACT FORM -- ##
-  leadText = "Say hi!"
+  leadText = "you want to learn more about EA? Then send us a message"
   senderName = "Your name (required)"
   senderEmail = "Your email (required)"
   emailSubject = "Subject"
@@ -83,7 +83,7 @@ DefaultContentLanguage = "de"
 
   [Languages.de.groupinfo]
   legalOrgName = "Effektiver Altruismus Tübingen"
-  orgLocations = "Germany"
+  orgLocations = "Deutschland"
   registeredCharityNumber = ""
   contactEmail = "jonathan.oesterle@web.de"
 
@@ -110,7 +110,7 @@ DefaultContentLanguage = "de"
   bottomBannerText = "Wir sind eine Gruppe von vielen weltweit!"
 
   [Languages.de.contactform]
-  leadText = "Willst Du mehr wissen? Dann schreibe uns doch einfach"
+  leadText = "Willst Du mehr über EA wissen? Dann schreibe uns doch einfach"
   senderName = "Dein Name (notwendig)"
   senderEmail = "Dein Email (notwendig)"
   emailSubject = "Betreff"
