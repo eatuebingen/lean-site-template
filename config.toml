@@ -8,7 +8,7 @@ DefaultContentLanguage = "de"
   [Languages]
   [Languages.en]
   languageCode = "en"
-  title = "Local EA Website"
+  title = "EA Tübingen"
   weight = 1
 
   [Languages.en.general]
@@ -60,9 +60,9 @@ DefaultContentLanguage = "de"
 
   [Languages.en.jumbotron]
   firstButtonText = "Follow our mailing list"
-  firstButtonLink = "http://www.mailinglist.link/12345"
+  firstButtonLink = ""
   secondButtonText = "Join us on Facebook"
-  secondButtonLink = "http://www.facebook.com/someEAFacebookGroup"
+  secondButtonLink = "https://www.facebook.com/EATuebingen/"
   meetupButtonText = "Find us on Meetup"
 
   [Languages.en.urls]
@@ -110,12 +110,12 @@ DefaultContentLanguage = "de"
   bottomBannerText = "Wir sind eine Gruppe von vielen weltweit!"
 
   [Languages.de.contactform]
-  leadText = "Sagen Sie Hallo!"
-  senderName = "Deine Name(required)"
-  senderEmail = "Dein Email (required)"
-  emailSubject = "Subjekt"
+  leadText = "Willst Du mehr wissen? Dann schreibe uns doch einfach"
+  senderName = "Dein Name (notwendig)"
+  senderEmail = "Dein Email (notwendig)"
+  emailSubject = "Betreff"
   emailMessage = "Deine Nachricht:"
-  send = "Schicken"
+  send = "Senden"
 
   [Languages.de.jumbotron]
   firstButtonText = "Hier drücken für Half Life 3"
@@ -125,6 +125,6 @@ DefaultContentLanguage = "de"
   meetupButtonText = "Hier drücken für den Weltfrieden"
 
   [Languages.de.urls]
-  facebookUrl = "http://www.facebook.com/someEAFacebookGroup"
+  facebookUrl = "https://www.facebook.com/EATuebingen/"
   #twitterUrl = ""
   #meetupUrl = ""
