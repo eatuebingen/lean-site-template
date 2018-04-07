@@ -9,7 +9,7 @@ canonifyURLs = true
 # you can change this language code. In this particular case,
 # baseURL will be the English site, and baseURL/<language code> will be the
 # other languages.
-DefaultContentLanguage = "de"
+DefaultContentLanguage = "en"
 
 # These params are used by the local EA Hugo template
 # used to generate the site. You can find the template
@@ -18,20 +18,20 @@ DefaultContentLanguage = "de"
 
   [Languages]
   [Languages.en]
-  title = "EA Tübingen"
+  title = "Local EA Website"
   weight = 1
-  languageCode = "de"
+  languageCode = "en"
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
-  fullTitle = "Effektiver Altruismus - Tübingen"
-  strapline = "GUTES BESSER TUN"
+  fullTitle = "Effective Altruism Site Title"
+  strapline = "Helping you do good better"
 
   [Languages.en.groupinfo]
   ## -- EA GROUP INFO -- ##
-  legalOrgName = "Effektiver Altruismus Tübingen"
-  orgLocations = ""
-  contactEmail = "jonathan.oesterle@web.de"
+  legalOrgName = "Effective Altruism <City Here>"
+  orgLocations = "this location and that location"
+  contactEmail = "yourEAGroupEmail@here.com"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
@@ -40,7 +40,7 @@ DefaultContentLanguage = "de"
   # content folder so the copy corresponds with the header.
   home = "Home"
   faq = "FAQ"
-  effectiveAltruism = "Effektiver Altruismus"
+  effectiveAltruism = "Effective Altruism"
   aboutEA = "About EA"
   readingMaterial = "Reading Material"
   keyTerms = "Key Terms"
@@ -54,12 +54,12 @@ DefaultContentLanguage = "de"
 
   [Languages.en.homepage]
    ## -- HOMEPAGE -- ##
-  topBannerText = "Wer wir sind?"
-  leadText = "Wir sind eine Gruppe von Leuten die Dir dabei helfen wollen die Frage zu beantworten: wie kann ich Gutes besser tun?"
-  firstSectionHeader = "Gutes besser tun"
-  secondSectionHeader = "Eine Community aufbauen"
-  thirdSectionHeader = "Besser Wege finden um zu helfen"
-  bottomBannerText = "Stolze Mitglieder des Effective Altruism Netzwerks"
+  topBannerText = "Who are we?"
+  leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
+  firstSectionHeader = "Doing good better"
+  secondSectionHeader = "Building a community"
+  thirdSectionHeader = "Finding better ways to help"
+  bottomBannerText = "A proud member of the effective altruism network"
 
   [Languages.en.contactform]
   ## -- CONTACT FORM -- ##
@@ -87,4 +87,4 @@ DefaultContentLanguage = "de"
   # to remove the link from the site
   facebookUrl = ""
   twitterUrl = ""
-  meetupUrl = ""
+meetupUrl = ""
