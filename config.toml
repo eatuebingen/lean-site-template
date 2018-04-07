@@ -1,43 +1,30 @@
-# baseURL should be
-# "https://YOUR-GITHUB-USERNAME.github.io/lean-site-template/" during development,
-# and "your-ea-domain.org/" after your domain has been set up.
 baseURL = "https://eatuebingen.github.io/lean-site-template/"
 theme = "local-ea-template"
-canonifyURLs = true
 
-# If you are using multiple languages and want a different default,
-# you can change this language code. In this particular case,
-# baseURL will be the English site, and baseURL/<language code> will be the
-# other languages.
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 
-# These params are used by the local EA Hugo template
-# used to generate the site. You can find the template
-# at https://github.com/rtcharity/local-ea-template.
   [params]
 
   [Languages]
   [Languages.en]
+  languageCode = "en"
   title = "Local EA Website"
   weight = 1
-  languageCode = "en"
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
-  fullTitle = "Effective Altruism Site Title"
+  fullTitle = "EA Is Awesome"
   strapline = "Helping you do good better"
 
-  [Languages.en.groupinfo]
   ## -- EA GROUP INFO -- ##
-  legalOrgName = "Effective Altruism <City Here>"
-  orgLocations = "this location and that location"
-  contactEmail = "yourEAGroupEmail@here.com"
+  [Languages.en.groupinfo]
+  legalOrgName = "Effective Altruism Tübingen"
+  orgLocations = "Germany"
+  registeredCharityNumber = ""
+  contactEmail = "jonathan.oesterle@web.de"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
-  # You probably don't need/want to change these,
-  # but if you do you'll also want to change the relevant .md file under the
-  # content folder so the copy corresponds with the header.
   home = "Home"
   faq = "FAQ"
   effectiveAltruism = "Effective Altruism"
@@ -48,7 +35,8 @@ DefaultContentLanguage = "en"
   contact= "Contact"
 
   [Languages.en.pages]
-  ## -- PAGE HEADERS -- ##
+  ## -- PAGES HEADERS-- ##
+  aboutPageHeader = "About us"
   contactPageHeader = "Contact us"
   aboutEAPageHeader = "What is Effective Altruism?"
 
@@ -62,29 +50,81 @@ DefaultContentLanguage = "en"
   bottomBannerText = "A proud member of the effective altruism network"
 
   [Languages.en.contactform]
-  ## -- CONTACT FORM -- ##
+    ## -- CONTACT FORM -- ##
   leadText = "Say hi!"
   senderName = "Your name (required)"
   senderEmail = "Your email (required)"
   emailSubject = "Subject"
-  emailMessage = "Your Message"
+  emailMessage = "Your Message:"
   send = "Send"
 
   [Languages.en.jumbotron]
-  # These are the buttons right under the header that appears on the main page.
-  # You can use them to link to a mailing list or Facebook page.
-  # Make sure the links start with http:// or https://
-  firstButtonText = "First Button Text"
-  firstButtonLink = ""
-  secondButtonText = "Second Button Text"
-  secondButtonLink = ""
-  # Remove the # before the text to add the optional Meetup button
-  # meetupButtonText = "Find us on Meetup"
+  firstButtonText = "Follow our mailing list"
+  firstButtonLink = "http://www.mailinglist.link/12345"
+  secondButtonText = "Join us on Facebook"
+  secondButtonLink = "http://www.facebook.com/someEAFacebookGroup"
+  meetupButtonText = "Find us on Meetup"
 
   [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
-  # If your group does not have URLs for these, just add # before the line
-  # to remove the link from the site
-  facebookUrl = ""
-  twitterUrl = ""
-meetupUrl = ""
+  facebookUrl = "https://www.facebook.com/EATuebingen/"
+  #twitterUrl = ""
+  #meetupUrl = ""
+
+
+  [Languages.de]
+  languageCode = "de"
+  title = "EA Tübingen"
+  weight = 2
+
+  [Languages.de.general]
+  fullTitle = "Effektiver Alltrusimus"
+  strapline = "Habe ich nicht schon gesagt, dass EA ist das Beste?!"
+
+  [Languages.de.groupinfo]
+  legalOrgName = "Effektiver Altruismus Tübingen"
+  orgLocations = "Germany"
+  registeredCharityNumber = ""
+  contactEmail = "jonathan.oesterle@web.de"
+
+  [Languages.de.navbar]
+  home = "Home"
+  faq = "FAQ"
+  effectiveAltruism = "Effektiver Altruismus"
+  aboutEA = "Über EA"
+  readingMaterial = "Lesestoff"
+  keyTerms = "Wortliste"
+  organizations = "Organisationen"
+  contact= "Kontakte"
+
+  [Languages.de.pages]
+  contactPageHeader = "Wenden Sie sich an uns"
+  aboutEAPageHeader = "Was ist Effektiven Altruismus?"
+
+  [Languages.de.homepage]
+  topBannerText = "Wer sind wir?"
+  leadText = "Wir sind eine Gruppe von Leuten die dabei helfen wollen die Frage zu beantworten: wie können wir Gutes besser und effektiver tun?"
+  firstSectionHeader = "Gutes besser tun"
+  secondSectionHeader = "Eine Community aufbauen"
+  thirdSectionHeader = "Bessere Wege finden zu helfen"
+  bottomBannerText = "Mitglieder des Effective Altruism Netzwerks"
+
+  [Languages.de.contactform]
+  leadText = "Sagen Sie Hallo!"
+  senderName = "Deine Name(required)"
+  senderEmail = "Dein Email (required)"
+  emailSubject = "Subjekt"
+  emailMessage = "Deine Nachricht:"
+  send = "Schicken"
+
+  [Languages.de.jumbotron]
+  firstButtonText = ""
+  firstButtonLink = ""
+  secondButtonText = "Besuche uns auf Facebook"
+  secondButtonLink = "https://www.facebook.com/EATuebingen/"
+  meetupButtonText = "Finden Sie uns auf Meetup"
+
+  [Languages.de.urls]
+  facebookUrl = "http://www.facebook.com/someEAFacebookGroup"
+  #twitterUrl = ""
+  #meetupUrl = ""
