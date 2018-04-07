@@ -78,8 +78,8 @@ DefaultContentLanguage = "de"
   weight = 2
 
   [Languages.de.general]
-  fullTitle = "Effektiver Alltrusimus"
-  strapline = "Habe ich nicht schon gesagt, dass EA ist das Beste?!"
+  fullTitle = "Effektiver Altrusimus"
+  strapline = "Gutes besser tun in dem man Herz und Verstand verbindet"
 
   [Languages.de.groupinfo]
   legalOrgName = "Effektiver Altruismus Tübingen"
@@ -102,12 +102,12 @@ DefaultContentLanguage = "de"
   aboutEAPageHeader = "Was ist Effektiven Altruismus?"
 
   [Languages.de.homepage]
-  topBannerText = "Wer sind wir?"
-  leadText = "Wir sind eine Gruppe von Leuten die dabei helfen wollen die Frage zu beantworten: wie können wir Gutes besser und effektiver tun?"
+  topBannerText = "Wer wir sind"
+  leadText = "Wir sind eine Gruppe von Leuten die dabei helfen wollen die Frage zu beantworten: wie können wir mit unseren limitierten Resourcen - Zeit und Geld - möglichst viel Gutes tun"
   firstSectionHeader = "Gutes besser tun"
   secondSectionHeader = "Eine Community aufbauen"
   thirdSectionHeader = "Bessere Wege finden zu helfen"
-  bottomBannerText = "Mitglieder des Effective Altruism Netzwerks"
+  bottomBannerText = "Wir sind eine Gruppe von vielen weltweit!"
 
   [Languages.de.contactform]
   leadText = "Sagen Sie Hallo!"
@@ -118,11 +118,11 @@ DefaultContentLanguage = "de"
   send = "Schicken"
 
   [Languages.de.jumbotron]
-  firstButtonText = ""
+  firstButtonText = "Hier drücken für Half Life 3"
   firstButtonLink = ""
   secondButtonText = "Besuche uns auf Facebook"
   secondButtonLink = "https://www.facebook.com/EATuebingen/"
-  meetupButtonText = "Finden Sie uns auf Meetup"
+  meetupButtonText = "Hier drücken für den Weltfrieden"
 
   [Languages.de.urls]
   facebookUrl = "http://www.facebook.com/someEAFacebookGroup"
